@@ -1,9 +1,8 @@
-def reverse(s):
-    str=""
-    for i in s:
-        str =i+ str
-        return str
-    s="1234abcd"
-    print ("the original string is:",end="")
-    print("the reversed string (using loops)is:",end="")
-    print(revese(s))
+def reverse(str):
+    string =""
+    for i in str:
+        string = i+string
+    return string
+str ="1234abcd"
+print("the original string is:",str)
+print("the reverse string is:",reverse(str))
